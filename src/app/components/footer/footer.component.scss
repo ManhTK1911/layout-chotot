@@ -1,0 +1,42 @@
+.footer {
+  padding: 30px 150px;
+  border-top: 10px solid #f4f4f4;
+  a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .infomation {
+    display: flex;
+    justify-content: space-between;
+    .help,
+    .about {
+      display: flex;
+      flex-direction: column;
+    }
+    .download {
+      .app {
+        display: flex;
+      }
+      .qr {
+        width: 87px;
+        height: 87px;
+      }
+      .social {
+        margin-left: 10px;
+        .gg {
+          margin-top: 11px;
+        }
+      }
+    }
+    .link {
+      i {
+        margin-left: 10px;
+        font-size: 32px;
+      }
+    }
+  }
+  .address {
+    text-align: center;
+  }
+}

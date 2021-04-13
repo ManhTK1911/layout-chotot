@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+i {
+  margin-right: 5px;
+}
+
+.content {
+  background-image: url(http://static.chotot.com/storage/banner/Theming-1920x1080_v4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  .first-content {
+    margin: 0px auto;
+    max-width: 960px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    .option {
+      display: flex;
+      justify-content: space-between;
+      .item {
+        margin: 10px;
+        a {
+          color: black;
+          text-decoration: none;
+          font-size: 14px;
+        }
+      }
+      i {
+        padding: 10px 5px;
+      }
+    }
+    img {
+      text-align: center;
+      border-radius: 5px;
+      height: 240px;
+      width: 936px;
+      margin-top: 10px;
+      object-fit: cover;
+      cursor: pointer;
+      outline: none;
+      -webkit-user-drag: none;
+      user-select: none;
+    }
+  }
+
+  .second-content {
+    margin: 10px auto;
+    max-width: 960px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    span {
+      margin-top: 8px;
+      text-align: center;
+    }
+    img {
+      width: 84px;
+      height: 84px;
+      border-radius: 20px;
+      outline: none;
+    }
+    .top {
+      display: flex;
+      justify-content: space-around;
+    }
+    .bottom {
+      display: flex;
+      justify-content: space-around;
+    }
+    .category-1 {
+      display: flex;
+      flex-direction: column;
+      max-width: 100px;
+      padding: 6px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+  .third-content {
+    margin: 0px auto;
+    max-width: 960px;
+    min-height: 600px;
+    background-color: rgb(255, 255, 255);
+    img {
+      width: 157px;
+      height: 157px;
+    }
+    .thumbnail {
+      min-height: 270px;
+    }
+    .thumbnail:hover {
+      box-shadow: 1px 1px 1px 1px rgb(206, 205, 205);
+    }
+  }
+
+  .fourth-content {
+    margin: 0px auto;
+    max-width: 960px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    p {
+      padding-top: 10px;
+    }
+  }
+  .fifth-content {
+    margin: 0px auto;
+    max-width: 960px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 8px;
+    justify-content: space-between;
+    b {
+      margin-bottom: 20px;
+    }
+    .layout {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+    li {
+      cursor: pointer;
+      padding: 2px;
+      font-weight: 100;
+    }
+  }
+}
