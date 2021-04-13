@@ -10,7 +10,7 @@ export class ContentComponent implements OnInit {
   public news = [
     {
       img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFSCoriZzPTkwmSrejnaL-beBo9-lijE3rUA&usqp=CAU',
-      name: 'Solo leveling',
+      name: 'Kiếm đạo độc tôn',
       price: 69000000
     },
     {
