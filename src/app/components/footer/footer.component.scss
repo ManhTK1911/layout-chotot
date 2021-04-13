@@ -1,5 +1,5 @@
 .footer {
-  padding: 30px 150px;
+  padding: 15px 160px;
   border-top: 10px solid #f4f4f4;
   a {
     color: black;
@@ -13,6 +13,9 @@
     .about {
       display: flex;
       flex-direction: column;
+      a{
+        padding: 5px;
+      }
     }
     .download {
       .app {
